@@ -1,0 +1,1 @@
+export * from './body-component.tsx';
