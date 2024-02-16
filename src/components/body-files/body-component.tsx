@@ -16,7 +16,7 @@ export const Body = ({ restoraunts }: { restoraunts: IRestorauntObject[] }) => {
         <div className="p-5 flex flex-col gap-2">
             <button
                 onClick={onClick}
-                className="border-2 rounded-sm shadow-sm border-black p-2 w-fit mx-8"
+                className="border-2 rounded-xl shadow-sm border-black p-2 w-40 mx-8"
             >
                 {isTopRated ? 'View All' : 'View Top Rated'}
             </button>
