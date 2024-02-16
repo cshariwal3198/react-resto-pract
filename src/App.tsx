@@ -7,9 +7,9 @@ export const App = () => {
   restoraunts;
 
   return (
-    <>
+    <div>
       <Header />
       <Body />
-    </>
+    </div>
   )
 }

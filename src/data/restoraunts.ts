@@ -21,6 +21,11 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
+            "locality": {
+                "name": "Vijayanagara, Bangalore",
+                "address": "932, 3rd Floor, 12th Main Road, Vijayanagara, Bangalore",
+                "localityUrl": "bangalore/Vijayanagara-restaurants"
+            },
             "cuisine": [
                 {
                     "deeplink": "zomato://search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiM1wiXX0iXQ%3D%3D",
@@ -87,58 +92,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "3.9",
-                        "reviewCount": "3,304",
-                        "reviewTextSmall": "3,304 Reviews",
-                        "subtext": "3,304 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "3.9",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "600"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "0",
-                        "reviewTextSmall": "0 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b91,500 for two"
-            },
-            "cfo": {
-                "text": "u20b9600 for one"
-            },
             "locality": {
                 "name": "Indiranagar, Bangalore",
                 "address": "968, 3rd & 4th Floor, HAL 2nd Stage, 12th Main Road, Indiranagar, Bangalore",
                 "localityUrl": "bangalore/indiranagar-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -171,11 +128,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b91,500 for two"
-            }
+            ]
         }
     },
     {
@@ -200,58 +153,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.2",
-                        "reviewCount": "4,658",
-                        "reviewTextSmall": "4,658 Reviews",
-                        "subtext": "4,658 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.2",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.2",
-                        "reviewCount": "221",
-                        "reviewTextSmall": "221 Reviews",
-                        "subtext": "221 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.2",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,600 for two"
-            },
-            "cfo": {
-                "text": "u20b91,050 for one"
-            },
             "locality": {
                 "name": "Marathahalli, Bangalore",
                 "address": "110, 1st Main, MSR Layout, Marathahalli, Bangalore",
                 "localityUrl": "bangalore/marathahalli-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -289,11 +194,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/north-indian/",
                     "name": "North Indian"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,600 for two"
-            }
+            ]
         }
     },
     {
@@ -318,58 +219,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.3",
-                        "reviewCount": "82",
-                        "reviewTextSmall": "82 Reviews",
-                        "subtext": "82 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.3",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "0",
-                        "reviewTextSmall": "0 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b93,500 for two"
-            },
-            "cfo": {
-                "text": "u20b91,400 for one"
-            },
             "locality": {
                 "name": "Old Airport Road, Bangalore",
                 "address": "4121/S Hal, Prestige Icon, 2nd Stage, Kodihalli, Jeevan Bima Nagar, Old Airport Road, Bangalore",
                 "localityUrl": "bangalore/old-airport-road-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -397,11 +250,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b93,500 for two"
-            }
+            ]
         }
     },
     {
@@ -426,58 +275,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.5",
-                        "reviewCount": "26.3K",
-                        "reviewTextSmall": "26.3K Reviews",
-                        "subtext": "26.3K Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.5",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "800"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.2",
-                        "reviewCount": "148",
-                        "reviewTextSmall": "148 Reviews",
-                        "subtext": "148 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.2",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,000 for two"
-            },
-            "cfo": {
-                "text": "u20b9800 for one"
-            },
             "locality": {
                 "name": "Marathahalli, Bangalore",
                 "address": "90/7 & 90/8, Outer Ring Road, Marathahalli, Bangalore",
                 "localityUrl": "bangalore/marathahalli-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -520,11 +321,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/desserts/",
                     "name": "Desserts"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,000 for two"
-            }
+            ]
         }
     },
     {
@@ -549,58 +346,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.3",
-                        "reviewCount": "416",
-                        "reviewTextSmall": "416 Reviews",
-                        "subtext": "416 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.3",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "0",
-                        "reviewTextSmall": "0 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,000 for two"
-            },
-            "cfo": {
-                "text": "u20b9800 for one"
-            },
             "locality": {
                 "name": "Cunningham Road, Bangalore",
                 "address": "18, Ali Asker Road, Vasanth Nagar, Cunningham Road, Bangalore",
                 "localityUrl": "bangalore/cunningham-road-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -613,11 +362,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/asian/",
                     "name": "Asian"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,000 for two"
-            }
+            ]
         }
     },
     {
@@ -642,58 +387,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.3",
-                        "reviewCount": "15.1K",
-                        "reviewTextSmall": "15.1K Reviews",
-                        "subtext": "15.1K Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.3",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.2",
-                        "reviewCount": "3,906",
-                        "reviewTextSmall": "3,906 Reviews",
-                        "subtext": "3,906 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.2",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,200 for two"
-            },
-            "cfo": {
-                "text": "u20b9900 for one"
-            },
             "locality": {
                 "name": "JP Nagar, Bangalore",
                 "address": "4th Phase, Near Maratt Estate, JP Nagar, Bangalore",
                 "localityUrl": "bangalore/jp-nagar-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -736,11 +433,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,200 for two"
-            }
+            ]
         }
     },
     {
@@ -765,58 +458,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.5",
-                        "reviewCount": "2,914",
-                        "reviewTextSmall": "2,914 Reviews",
-                        "subtext": "2,914 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.5",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "800"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "4",
-                        "reviewTextSmall": "4 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b91,800 for two"
-            },
-            "cfo": {
-                "text": "u20b9750 for one"
-            },
             "locality": {
                 "name": "Jayanagar, Bangalore",
                 "address": "5th Floor, Le Foliage Building, Marenhalli Road, Jayanagar, Bangalore",
                 "localityUrl": "bangalore/jayanagar-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -849,11 +494,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b91,800 for two"
-            }
+            ]
         }
     },
     {
@@ -878,68 +519,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": true
             },
-            "ratingNew": {
-                "newlyOpenedObj": {
-                    "text": "Newly Opened",
-                    "color": "#FFFFFF",
-                    "bgColor": "#F4A266",
-                    "bgColorV2": {
-                        "type": "green",
-                        "tint": "100"
-                    },
-                    "subtitle": "OUTLET",
-                    "ratingV2": "New"
-                },
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "",
-                        "reviewCount": "926",
-                        "reviewTextSmall": "926 Reviews",
-                        "subtext": "Does not offer Dining",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDining": true
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "0",
-                        "reviewTextSmall": "0 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b91,600 for two"
-            },
-            "cfo": {
-                "text": "u20b9650 for one"
-            },
             "locality": {
                 "name": "Bannerghatta Road, Bangalore",
                 "address": "4th Floor, SRK Towers, Bannerghatta Road, Bangalore",
                 "localityUrl": "bangalore/bannerghatta-road-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -967,11 +550,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/north-indian/",
                     "name": "North Indian"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b91,600 for two"
-            }
+            ]
         }
     },
     {
@@ -996,58 +575,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.6",
-                        "reviewCount": "862",
-                        "reviewTextSmall": "862 Reviews",
-                        "subtext": "862 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.6",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "800"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.3",
-                        "reviewCount": "47",
-                        "reviewTextSmall": "47 Reviews",
-                        "subtext": "47 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.3",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,000 for two"
-            },
-            "cfo": {
-                "text": "u20b9800 for one"
-            },
             "locality": {
                 "name": "Richmond Road, Bangalore",
                 "address": "10, Wood Street, Ashok Nagar, Opposite Karnataka Bank, Richmond Road, Bangalore",
                 "localityUrl": "bangalore/richmond-road-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1080,11 +611,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,000 for two"
-            }
+            ]
         }
     },
     {
@@ -1109,58 +636,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.6",
-                        "reviewCount": "8,252",
-                        "reviewTextSmall": "8,252 Reviews",
-                        "subtext": "8,252 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.6",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "800"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.3",
-                        "reviewCount": "73",
-                        "reviewTextSmall": "73 Reviews",
-                        "subtext": "73 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.3",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,600 for two"
-            },
-            "cfo": {
-                "text": "u20b91,050 for one"
-            },
             "locality": {
                 "name": "Sarjapur Road, Bangalore",
                 "address": "26, PWD Quarters, Amblipura, Haralur Main Road, Near HP Petrol Station, Sarjapur Road, Bangalore",
                 "localityUrl": "bangalore/sarjapur-road-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1203,11 +682,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,600 for two"
-            }
+            ]
         }
     },
     {
@@ -1232,58 +707,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.0",
-                        "reviewCount": "98",
-                        "reviewTextSmall": "98 Reviews",
-                        "subtext": "98 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.0",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "3.9",
-                        "reviewCount": "119",
-                        "reviewTextSmall": "119 Reviews",
-                        "subtext": "119 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "3.9",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "600"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b91,500 for two"
-            },
-            "cfo": {
-                "text": "u20b9600 for one"
-            },
             "locality": {
                 "name": "Jayanagar, Bangalore",
                 "address": "45, 1st Floor, H.B. Inspire, 11th Main Road, Jayanagar, Bangalore",
                 "localityUrl": "bangalore/jayanagar-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1326,11 +753,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/korean/",
                     "name": "Korean"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b91,500 for two"
-            }
+            ]
         }
     },
     {
@@ -1355,58 +778,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "3.9",
-                        "reviewCount": "210",
-                        "reviewTextSmall": "210 Reviews",
-                        "subtext": "210 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "3.9",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "600"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "0",
-                        "reviewTextSmall": "0 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b93,000 for two"
-            },
-            "cfo": {
-                "text": "u20b91,200 for one"
-            },
             "locality": {
                 "name": "Lavelle Road, Bangalore",
                 "address": "10/5, 6th floor, Rathnam's Complex, Kasturba Road, Mahatma Gandhi Rd, Lavelle Road, Bangalore",
                 "localityUrl": "bangalore/lavelle-road-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1444,11 +819,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b93,000 for two"
-            }
+            ]
         }
     },
     {
@@ -1473,58 +844,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.2",
-                        "reviewCount": "7,159",
-                        "reviewTextSmall": "7,159 Reviews",
-                        "subtext": "7,159 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.2",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "3.7",
-                        "reviewCount": "3,937",
-                        "reviewTextSmall": "3,937 Reviews",
-                        "subtext": "3,937 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "3.7",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "600"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b91,800 for two"
-            },
-            "cfo": {
-                "text": "u20b9750 for one"
-            },
             "locality": {
                 "name": "Indiranagar, Bangalore",
                 "address": "951, 12th Main Road, HAL 2nd Stage, Indiranagar, Bangalore",
                 "localityUrl": "bangalore/indiranagar-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1557,11 +880,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b91,800 for two"
-            }
+            ]
         }
     },
     {
@@ -1586,68 +905,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": true
             },
-            "ratingNew": {
-                "newlyOpenedObj": {
-                    "text": "Newly Opened",
-                    "color": "#FFFFFF",
-                    "bgColor": "#F4A266",
-                    "bgColorV2": {
-                        "type": "green",
-                        "tint": "100"
-                    },
-                    "subtitle": "OUTLET",
-                    "ratingV2": "New"
-                },
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "",
-                        "reviewCount": "835",
-                        "reviewTextSmall": "835 Reviews",
-                        "subtext": "Does not offer Dining",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDining": true
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "0",
-                        "reviewTextSmall": "0 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b91,500 for two"
-            },
-            "cfo": {
-                "text": "u20b9600 for one"
-            },
             "locality": {
                 "name": "Varthur Main Road, Whitefield, Bangalore",
                 "address": "A23, Chaitanya Sharan, Gunjur, Mahadevapura, B.B.M.P East, Varthur Main Road, Whitefield, Bangalore",
                 "localityUrl": "bangalore/varthur-main-road-whitefield-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1660,11 +921,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/chinese/",
                     "name": "Chinese"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b91,500 for two"
-            }
+            ]
         }
     },
     {
@@ -1689,58 +946,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.4",
-                        "reviewCount": "4,401",
-                        "reviewTextSmall": "4,401 Reviews",
-                        "subtext": "4,401 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.4",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.0",
-                        "reviewCount": "5",
-                        "reviewTextSmall": "5 Reviews",
-                        "subtext": "5 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.0",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,000 for two"
-            },
-            "cfo": {
-                "text": "u20b9800 for one"
-            },
             "locality": {
                 "name": "Gilly's Redefined, Koramangala 4th Block, Bangalore",
                 "address": "413, 100 Feet Road, Near E-Zone, Koramangala 4th Block, Bangalore",
                 "localityUrl": "bangalore/restaurants/in/gillys-redefined-koramangala-4th-block"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1778,11 +987,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/desserts/",
                     "name": "Desserts"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,000 for two"
-            }
+            ]
         }
     },
     {
@@ -1807,58 +1012,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.0",
-                        "reviewCount": "470",
-                        "reviewTextSmall": "470 Reviews",
-                        "subtext": "470 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.0",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "0",
-                        "reviewTextSmall": "0 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,000 for two"
-            },
-            "cfo": {
-                "text": "u20b9800 for one"
-            },
             "locality": {
                 "name": "Jayanagar, Bangalore",
                 "address": "42/1, 22nd Cross Road, Jayanagar 3rd Block East, Jayanagar, Bangalore",
                 "localityUrl": "bangalore/jayanagar-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1871,11 +1028,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/continental/",
                     "name": "Continental"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,000 for two"
-            }
+            ]
         }
     },
     {
@@ -1900,58 +1053,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.5",
-                        "reviewCount": "10.8K",
-                        "reviewTextSmall": "10.8K Reviews",
-                        "subtext": "10.8K Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.5",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "800"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.2",
-                        "reviewCount": "391",
-                        "reviewTextSmall": "391 Reviews",
-                        "subtext": "391 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.2",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,200 for two"
-            },
-            "cfo": {
-                "text": "u20b9900 for one"
-            },
             "locality": {
                 "name": "Indiranagar, Bangalore",
                 "address": "Hal 2 Stage, 100 Feet Road, Indiranagar, Bangalore",
                 "localityUrl": "bangalore/indiranagar-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -1994,11 +1099,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,200 for two"
-            }
+            ]
         }
     },
     {
@@ -2023,58 +1124,10 @@ export const restoraunts = [
                 "subtext": "REVIEW",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.5",
-                        "reviewCount": "1,365",
-                        "reviewTextSmall": "1,365 Reviews",
-                        "subtext": "1,365 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.5",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "800"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "",
-                        "reviewCount": "0",
-                        "reviewTextSmall": "0 Reviews",
-                        "subtext": "Does not offer Delivery",
-                        "color": "",
-                        "ratingV2": "-",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "grey",
-                            "tint": "500"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b91,500 for two"
-            },
-            "cfo": {
-                "text": "u20b9600 for one"
-            },
             "locality": {
                 "name": "Kadubeesanahalli, Bangalore",
                 "address": "75/2/200, Kaverappa Layout, Kadubeesanahalli, Bangalore",
                 "localityUrl": "bangalore/kadubeesanahalli-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -2117,11 +1170,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/south-indian/",
                     "name": "South Indian"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b91,500 for two"
-            }
+            ]
         }
     },
     {
@@ -2146,58 +1195,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.6",
-                        "reviewCount": "1,950",
-                        "reviewTextSmall": "1,950 Reviews",
-                        "subtext": "1,950 Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.6",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "800"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.3",
-                        "reviewCount": "689",
-                        "reviewTextSmall": "689 Reviews",
-                        "subtext": "689 Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.3",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,500 for two"
-            },
-            "cfo": {
-                "text": "u20b91,000 for one"
-            },
             "locality": {
                 "name": "Indiranagar, Bangalore",
                 "address": "3155, HAL 2nd Stage, Indiranagar, Bangalore",
                 "localityUrl": "bangalore/indiranagar-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
@@ -2225,11 +1226,7 @@ export const restoraunts = [
                     "url": "https://www.zomato.com/bangalore/restaurants/beverages/",
                     "name": "Beverages"
                 }
-            ],
-            "should_ban_ugc": false,
-            "costText": {
-                "text": "u20b92,500 for two"
-            }
+            ]
         }
     },
     {
@@ -2254,58 +1251,10 @@ export const restoraunts = [
                 "subtext": "REVIEWS",
                 "is_new": false
             },
-            "ratingNew": {
-                "newlyOpenedObj": null,
-                "suspiciousReviewObj": null,
-                "ratings": {
-                    "DINING": {
-                        "rating_type": "DINING",
-                        "rating": "4.6",
-                        "reviewCount": "35.9K",
-                        "reviewTextSmall": "35.9K Reviews",
-                        "subtext": "35.9K Dining Reviews",
-                        "color": "#1C1C1C",
-                        "ratingV2": "4.6",
-                        "subtitle": "DINING",
-                        "sideSubTitle": "Dining Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "800"
-                        },
-                        "newOnDining": false
-                    },
-                    "DELIVERY": {
-                        "rating_type": "DELIVERY",
-                        "rating": "4.3",
-                        "reviewCount": "24.4K",
-                        "reviewTextSmall": "24.4K Reviews",
-                        "subtext": "24.4K Delivery Reviews",
-                        "color": "#E23744",
-                        "ratingV2": "4.3",
-                        "subtitle": "DELIVERY",
-                        "sideSubTitle": "Delivery Ratings",
-                        "bgColorV2": {
-                            "type": "green",
-                            "tint": "700"
-                        },
-                        "newOnDelivery": false
-                    }
-                }
-            },
-            "cft": {
-                "text": "u20b92,600 for two"
-            },
-            "cfo": {
-                "text": "u20b91,050 for one"
-            },
             "locality": {
                 "name": "Sarjapur Road, Bangalore",
                 "address": "10/61/2A/2 & 10/62/2A/3, Doddakannenahalli, Sarjapur Road, Bangalore",
                 "localityUrl": "bangalore/sarjapur-road-restaurants"
-            },
-            "timing": {
-                "text": "",
-                "color": ""
             },
             "cuisine": [
                 {
