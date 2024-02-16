@@ -1,5 +1,4 @@
-import { Body } from './components/body-files/body-component';
-import { Header } from './components/header files/header-component';
+import { Body, Header, IRestorauntObject } from './components';
 import { restoraunts } from './data/restoraunts';
 import './index.css';
 
@@ -8,9 +7,9 @@ export const App = () => {
   restoraunts;
 
   return (
-    <div>
+    <div className=''>
       <Header />
-      <Body />
+      <Body restoraunts={restoraunts as IRestorauntObject[]} />
     </div>
   )
 }
