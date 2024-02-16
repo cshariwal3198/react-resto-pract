@@ -9,16 +9,5 @@ export const StyledWrapper = styled.div`
 
 export const StyledImage = styled.img`
     width: 120px;
-    height: 120px;
-`;
-
-export const StyledList = styled.ul`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-
-    & > li{
-        font-size: 24px;
-    }
+    height: 130px;
 `;
