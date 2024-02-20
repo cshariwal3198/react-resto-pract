@@ -1,16 +1,29 @@
-import { Body } from './components/body-files/body-component';
-import { Header } from './components/header files/header-component';
-import { restoraunts } from './data/restoraunts';
+import { memo, useEffect, useState } from 'react';
+import { Body, Header, IRestorauntObject } from './components';
 import './index.css';
+import { fetchData } from './service-client';
 
-export const App = () => {
+export const App = memo(() => {
 
-  restoraunts;
+  const [restoraunts, setRestoraunts] = useState<IRestorauntObject[]>([]);
+
+  useEffect(() => {
+    const getRestorauntsData = async () => {
+      let data;
+      try {
+        data = await fetchData();
+      } catch (err) {
+        console.log(err);
+      }
+      setRestoraunts(data?.data?.cards[1].card.card.gridElements.infoWithStyle.restaurants)
+    }
+    getRestorauntsData()
+  }, []);
 
   return (
-    <div>
+    <div className=''>
       <Header />
-      <Body />
+      <Body restoraunts={restoraunts} />
     </div>
   )
-}
+});
