@@ -5,24 +5,18 @@ export type ICuisineType = {
 }
 
 export interface IRestorauntObject {
-    type: string;
+    cta: {
+        link: string;
+        type: string;
+    }
     info: {
-        resId: number;
+        id: number;
+        cuisine: string[];
+        areaName: string;
+        avgRating: number;
         name: string;
-        image: {
-            url: string;
-            urlWithParams: string
-        },
-        o2FeaturedImage: {
-            url: string;
-        },
-        rating: {
-            aggregate_rating: string;
-        },
-        locality: {
-            name: string;
-            address: string;
-        },
-        cuisine: ICuisineType[]
+        veg: boolean;
+        cloudinaryImageId: string;
+        locality: string;
     }
 }
