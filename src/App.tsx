@@ -3,22 +3,26 @@ import ReactDOM from 'react-dom/client';
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Header } from './components';
 import './index.css';
-
-export const App = memo(() => {
-
-  return (
-    <div className=''>
-      <Header />
-      <Outlet />
-    </div>
-  )
-});
+import { Provider } from 'react-redux';
 
 const Body = lazy(() => import('./components/body-files/body-component'));
 const About = lazy(() => import('./components/navbar/about'));
 const Cart = lazy(() => import('./components/navbar/cart'));
 const Explore = lazy(() => import('./components/navbar/explore'));
 const ContactUs = lazy(() => import('./components/navbar/contact'));
+const Restoraunt = lazy(() => import('./components/restoraunt/restoraunt'))
+
+export const App = memo(() => {
+
+  return (
+    // <Provider store={}>
+    <div className=''>
+      <Header />
+      <Outlet />
+    </div>
+    // </Provider>
+  )
+});
 
 const appRouter = createBrowserRouter([
   {
@@ -44,6 +48,10 @@ const appRouter = createBrowserRouter([
       {
         path: '/explore',
         element: <Explore />
+      },
+      {
+        path: '/restoraunt/:resId',
+        element: <Restoraunt />
       }
     ]
   }
@@ -51,7 +59,7 @@ const appRouter = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Suspense>
+    <Suspense fallback={<>loading</>}>
       <RouterProvider router={appRouter} />
     </Suspense>
   </React.StrictMode>,

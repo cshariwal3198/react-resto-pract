@@ -1,4 +1,4 @@
-import { memo, useCallback, useEffect, useState } from "react";
+import { ChangeEvent, memo, useCallback, useEffect, useState } from "react";
 import { IRestorauntObject, RestoCard } from "..";
 import { fetchData } from "../../service-client";
 import { ShimmerBody } from "../shimmer";
@@ -7,6 +7,7 @@ const Body = memo(() => {
 
     const [isTopRated, setisTopRated] = useState(false);
     const [restoraunts, setRestoraunts] = useState<IRestorauntObject[]>([]);
+    const [filteredRestoraunts, setFilteredRestoraunts] = useState<IRestorauntObject[]>([]);
 
     useEffect(() => {
         const getRestorauntsData = async () => {
@@ -17,21 +18,22 @@ const Body = memo(() => {
                 console.log(err);
             }
             setRestoraunts(data?.data?.cards[1].card.card.gridElements.infoWithStyle.restaurants)
+            setFilteredRestoraunts(data?.data?.cards[1].card.card.gridElements.infoWithStyle.restaurants)
         }
         getRestorauntsData()
     }, []);
 
     const onClick = useCallback(() => setisTopRated(!isTopRated), [isTopRated]);
 
-    const onSearchChange = useCallback(({ target }) => {
-        const textValue = target.value.toLocaleLowerCase();
-        setRestoraunts([...restoraunts.filter(({ info: { name, areaName } }) => (
+    const onSearchChange = useCallback(({ target: { value } }: ChangeEvent<HTMLInputElement>) => {
+        const textValue = value.toLocaleLowerCase();
+        setFilteredRestoraunts([...restoraunts.filter(({ info: { name, areaName } }) => (
             name.toLocaleLowerCase().includes(textValue) || areaName.toLocaleLowerCase().includes(textValue)
         ))]);
     }, [restoraunts]);
 
     return (
-        restoraunts.length === 0 ? <ShimmerBody /> :
+        restoraunts?.length === 0 ? <ShimmerBody /> :
             <div className="p-5 flex flex-col gap-2">
                 <div className="flex justify-between">
                     <button
@@ -44,7 +46,7 @@ const Body = memo(() => {
                 </div>
                 <div className="flex flex-wrap size-full gap-4">
                     {
-                        restoraunts.filter(({ info: { avgRating } }) => (isTopRated ? avgRating >= 4 : avgRating > 0)).map((restoraunt) => (
+                        filteredRestoraunts?.filter(({ info: { avgRating } }) => (isTopRated ? avgRating >= 4 : avgRating > 0)).map((restoraunt) => (
                             <RestoCard key={restoraunt.info.id} restoraunt={restoraunt} />
                         ))
                     }

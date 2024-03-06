@@ -1,4 +1,10 @@
+import { CDN_URL, MENU_API } from "./constants";
+
 export const fetchData = async () => (
-    await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6126255&lng=77.04108959999999&page_type=DESKTOP_WEB_LISTING').then((res) => (
+    await fetch(CDN_URL).then((res) => (
         res.json()))
+)
+
+export const getRestorauntInfo = async (id: string) => (
+    await fetch(MENU_API + id).then((data) => (data.json()))
 )
